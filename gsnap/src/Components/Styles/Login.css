@@ -1,0 +1,235 @@
+.appnamebutton{
+  background-color: rgb(10, 65, 50); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 28px ;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  }
+  .leftimage{
+    width:100%;
+    height: 100%;
+
+
+    
+    /* opacity:0.5; */
+  }
+  
+  .image{
+      background-image: url(../Images/pexels-cristian-dina-1851415.jpg);
+      background-repeat: no-repeat;
+  
+      background-size: cover;
+      background-position: center;
+      /* opacity:0.5; */
+      
+  }
+  .btn {
+      cursor: pointer;
+      background-color: #32465a;
+      border: none;
+      color: white;
+      padding: 10px 28px ;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 10px;
+      border-radius: 10px;
+      
+    }
+    .btnhome {
+      cursor: pointer;
+      background-color: pink;
+      border: none;
+      color: white;
+      padding: 10px 28px ;
+      text-align: center;
+      width:100%;
+      font-size: 30px;
+      
+    }
+    
+    /* Darker background on mouse-over */
+    .btn:hover {
+      background-color: RoyalBlue;
+    }
+    .button {
+    border-radius: 4px;
+    background-color: #32465a;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .copyright{
+      margin-top: 60px;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .CenterAliningItems{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+      margin-bottom: 10px;
+    }
+  /* //----------------- */
+  .button1 {
+      border-radius: 4px;
+      width: 300px;
+      transition: all 0.5s; 
+      cursor: pointer;
+      margin: 5px;
+  
+      background-color: #32465a;
+      border: none;
+      color: white;
+      padding: 10px 28px ;
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 40px;
+     
+      
+     
+    }
+    
+    .button1 span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button1 span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button1:hover span {
+      padding-right: 25px;
+    }
+    
+    .button1:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    .error{
+      align-items: center;
+      display: flex;
+      margin-left: 150px;
+    }
+  .loginrightcomponent{
+      box-shadow:0 80px 80px #808888;
+      background-color:#fff;
+      
+    }
+    .root{
+
+      position: 'fixed';
+      width: '100%';
+      height: '100%';
+      left: '0';
+      top: '0';
+      background: '#fff';
+      z-index: '10';
+    }
+     .Signinsee{
+      display: 'flex';
+      flex-direction: 'column';
+      align-items: 'center';
+      color:'White';
+      width:'100%';
+      box-shadow:" 0 5px 5px #808888";
+    }
+    .footer {
+      background: linear-gradient(to bottom, #434343 0%, #000000 100%);
+    }
+    
+    .logoname {
+      color: white;
+       margin-top: 60px;
+    }
+    
+.texte{
+  margin-left: 200px ;
+}
+
+    .words {
+      color: #ffffff;
+      font-size: 0;
+      line-height: 1.5;
+    }
+    
+    .words span {
+      font-size: 3rem;
+      display: inline-block;
+      animation: move 3s ease-in-out infinite;
+    }
+    
+    @keyframes move {
+      0% {
+        transform: translate(-30%, 0);
+      }
+      50% {
+        text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+      }
+      100% {
+        transform: translate(30%, 0);
+      }
+    }
+    
+    .words span:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+    
+    .words span:nth-child(3) {
+      animation-delay: 1s;
+    }
+    
+    .words span:nth-child(4) {
+      animation-delay: 1.5s;
+    }
+    
+    .words span:nth-child(5) {
+      animation-delay: 2s;
+    }
+    
+    .words span:nth-child(6) {
+      animation-delay: 2.5s;
+    }
+    
+    .words span:nth-child(7) {
+      animation-delay: 3s;
+    }
+    
