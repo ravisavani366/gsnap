@@ -50,7 +50,7 @@ class Home extends React.Component {
                                 <span>Login</span>
                             </button>
                         </Link>
-                        <p style={{marginTop:'100px', color:'#ff0080'}}>&copy; 2021 Shree Diamond</p>
+                        <p style={{marginTop:'100px', color:'#ff0080'}}>&copy; 2021 Shree Diasmond</p>
                     </div>
                   
                 </Grid>
