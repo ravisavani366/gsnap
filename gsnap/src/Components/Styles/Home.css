@@ -29,7 +29,7 @@
 
 .imagehome {
   /* background-image: url(../../images/pexels-evie-shaffer-2395251.jpg); */
-  background-image: url(../Images/pexels-cristian-dina-1851415.jpg);
+  background-image: linear-gradient(#141E30, #243B55);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,4 +99,17 @@
 .logoname {
   color: white;
    margin-top: 60px;
+}
+.hometxt{
+  margin:0px 0px 20px 10px;
+  padding:10px 0px 0px 9px;
+}
+.homedetails{
+  margin:0px 0px 20px 10px;
+  padding:10px 0px 0px 9px;
+}
+.footertxt{
+  color: #32465a;
+  margin-top: 100px;
+  font-weight: 700;
 }
