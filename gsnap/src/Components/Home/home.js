@@ -5,6 +5,7 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logopng.jpg'
 
+
 class Home extends React.Component {
 
     render() {
@@ -25,21 +26,24 @@ class Home extends React.Component {
                     <div className="homeleftimage">
                         <div style={paper}>
                             <h1 className="logoname">
-                                Diamond Chat
+                               Shree Diamond
                                </h1>
-                              <h5  className="logoname"> Shree Diamond</h5>
                                </div>
                                <div className="logoname" >
-                        <p  style={{marginTop:'85px'}}>Having more than 20 years experience in the Diamond industry. We are Leading Manufacturer and Exporter of Loose Diamonds, Black Diamonds, Fancy Color Diamonds, Diamond Beads Necklace and Rough Diamond Beads Necklace.</p>
-                        <i  class="fa fa-phone">: +91 90999 28272</i><br></br>
-                        <i  class="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
+                        <p className="hometxt">Having more than 20 years experience in the Diamond industry. We are Leading Manufacturer and Exporter of Loose Diamonds, Black Diamonds, Fancy Color Diamonds, Diamond Beads Necklace and Rough Diamond Beads Necklace.</p>
+                        <div className="homedetails">
+                            <i  class="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
+                            <i  class="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
+                        </div>
                     </div> 
+                    <img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" />
                     </div>
+                 
                 </Grid>
                 <Grid item xs={12} sm={8} md={5} className="homerightcomponent" elevation={6} square>
                     <Card className="homeitem1">
                         <button className="btnhome">
-                            <i class="fa fa-home">Welcome</i>
+                            <i class="fa fa-home">Welcome To Diamond World</i>
                         </button>
 
                     </Card>
@@ -50,7 +54,7 @@ class Home extends React.Component {
                                 <span>Login</span>
                             </button>
                         </Link>
-                        <p style={{marginTop:'100px', color:'#ff0080'}}>&copy; 2021 Shree Diasmond</p>
+                        <p className="footertxt">&copy; 2021 Shree Diamond</p>
                     </div>
                   
                 </Grid>
