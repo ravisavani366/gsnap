@@ -126,7 +126,7 @@ class LiveChat extends React.Component{
                        <div className="viewLoading">
                            <ReactLoading
                            type={'spin'}
-                           color={'black'}
+                           color={'white'}
                            height={'10%'}
                            width={'10%'}
                            />
@@ -136,9 +136,10 @@ class LiveChat extends React.Component{
                        <img src={this.state.currentPeerUser.URL ? this.state.currentPeerUser.URL : "https://firebasestorage.googleapis.com/v0/b/react-applciation.appspot.com/o/nopic.jpg?alt=media&token=b4bbcf51-a6b2-4715-9699-8b26b2cf6c8b" }/>
                         <p>{this.state.currentPeerUser.name}</p>
                         <div class="social-media">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        {/* <p>for you {this.state.currentPeerUser.name}'s </p> */}
+                           <a href="https://www.facebook.com/"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                           <a href="https://twitter.com/?lang=en"> <i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                           <a href="https://www.instagram.com/">  <i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                    </div>
                    <div className="viewListContentChat">
