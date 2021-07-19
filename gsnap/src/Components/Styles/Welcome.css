@@ -5,23 +5,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: pink;
+    background-image: linear-gradient(#141E30, #243B55);
     border-left: 1px solid #cccccc;
     height: 100%;
     padding-top: 40px;
-    opacity: 0.4;
+    /* opacity: 0.4; */
     height: 100%;
 }
 
 .textTitleWelcome {
     font-size: 40px;
     font-weight: bold;
-    color: #203152;
+    color: #ffffff;
 }
 
 .textDescriptionWelcome {
     font-size: 20px;
-    color: #203152;
+    color: #ffffff;
     margin-bottom: 200px;
 }
 
