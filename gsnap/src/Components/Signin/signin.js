@@ -91,6 +91,15 @@ class Signin extends React.Component {
                         </div>
 
                         <div class="words word-2">
+                           
+                            <span>S</span>
+                            <span>H</span>
+                            <span>R</span>
+                            <span>E</span>
+                            <span>E</span>
+                        </div>
+                            
+                        <div class="words word-3">
                             <span>D</span>
                             <span>I</span>
                             <span>A</span>
@@ -99,16 +108,11 @@ class Signin extends React.Component {
                             <span>N</span>
                             <span>D</span>
                         </div>
-
-                        <div class="words word-3">
-                            <span>C</span>
-                            <span>H</span>
-                            <span>A</span>
-                            <span>T</span>
-                        </div>
                     </div>
-                    <div className="leftimage">
+                    
 
+                    <div className="leftimage">
+                    <marquee className="textDescriptionWelcome"><strong>Note:</strong> Please Contact Manager if your lost a Password</marquee>
                         {this.state.isLoading ? (
                             <div className="viewLoadingProfile">
                                 <ReactLoading
@@ -120,7 +124,7 @@ class Signin extends React.Component {
                             </div>
                         ) : null}
                     </div>
-
+                   
                 </Grid>
                 <Grid item xs={12} sm={8} md={5} className="loginrightcomponent" elevation={6} square>
                     <Card style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', boxShadow: "0 5px 5px #808888" }}>
