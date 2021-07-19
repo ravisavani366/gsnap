@@ -32,8 +32,8 @@ class Home extends React.Component {
                                <div className="logoname" >
                         <p className="hometxt">Having more than 20 years experience in the Diamond industry. We are Leading Manufacturer and Exporter of Loose Diamonds, Black Diamonds, Fancy Color Diamonds, Diamond Beads Necklace and Rough Diamond Beads Necklace.</p>
                         <div className="homedetails">
-                            <i  class="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
-                            <i  class="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
+                            <i  className="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
+                            <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
                         </div>
                     </div> 
                     <img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" />
@@ -43,7 +43,7 @@ class Home extends React.Component {
                 <Grid item xs={12} sm={8} md={5} className="homerightcomponent" elevation={6} square>
                     <Card className="homeitem1">
                         <button className="btnhome">
-                            <i class="fa fa-home">Welcome To Diamond World</i>
+                            <i className="fa fa-home">Welcome To Diamond World</i>
                         </button>
 
                     </Card>
