@@ -121,7 +121,10 @@ class Signin extends React.Component{
         return(
            <Grid  container component="main" className="root">
               <Grid item xs={1} sm={4} md={7} className="image">
+
                    <div className="leftimage">
+                   <marquee className="textDescriptionWelcome"><strong>⚠ Note:</strong> Please 🔖 Update your Daily Work Status</marquee>
+
                    {this.state.isLoading ? (
                        <div className="viewLoadingProfile">
                            <ReactLoading
