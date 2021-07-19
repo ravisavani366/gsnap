@@ -19,7 +19,7 @@
 } */
 .btnhome {
   cursor: pointer;
-  background-color: pink;
+  background-image: linear-gradient(#141E30, #243B55);
   border: none;
   color: white;
   padding: 10px 28px ;
@@ -95,15 +95,17 @@ border-radius: 10px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    background-color: rgb(10, 65, 50); /* Green */
+    background-color: #243B55; /* Green */
     border: none;
     color: white;
     padding: 10px 28px ;
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
+    width: 100%;
   
   }
+
   .leftimage{
     width:100%;
     height: 100%;
@@ -114,8 +116,8 @@ border-radius: 10px;
   }
   
   .image{
-      background-image: url(../Images/pexels-cristian-dina-1851415.jpg);
-      background-repeat: no-repeat;
+    background-image: linear-gradient(#141E30, #243B55);
+    background-repeat: no-repeat;
   
       background-size: cover;
       background-position: center;
@@ -134,25 +136,7 @@ border-radius: 10px;
     border-radius: 10px;
     box-shadow: 0 5px 5px #808888;
   }
-  .button1 {
-    border-radius: 4px;
-    width: 300px;
-    transition: all 0.5s; 
-    cursor: pointer;
-    margin: 5px;
-
-    background-color: #32465a;
-    border: none;
-    color: white;
-    padding: 10px 28px ;
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 40px;
-   
-    
-   
-  }
+ 
   
   .button1 span {
     cursor: pointer;
