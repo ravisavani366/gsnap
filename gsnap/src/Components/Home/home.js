@@ -43,7 +43,7 @@ class Home extends React.Component {
 
                         </div>
                         <div className="bodyimg123">
-                            <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="30%" width="30%" />
+                            <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="25%" width="25%" />
                         </div>
                     </div>
 
