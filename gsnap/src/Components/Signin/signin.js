@@ -117,7 +117,7 @@ class Signin extends React.Component {
                             <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="25%" width="25%" />
                         </div>
                     <div className="leftimage">
-                    <marquee className="textDescriptionWelcome"><strong>Note:</strong> Please Contact Manager if your lost a Password</marquee>
+                    <marquee className="textDescriptionWelcome"><strong>⚠ Note:</strong> Please Contact Manager if you lost your Password</marquee>
                         {this.state.isLoading ? (
                             <div className="viewLoadingProfile">
                                 <ReactLoading
