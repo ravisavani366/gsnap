@@ -3,7 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import '../Styles/Home.css';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logo from '../Images/logopng.jpg'
+import logo from '../Images/logopng.jpg';
+import logo1 from '../Images/ic_send.png'
 
 
 class Home extends React.Component {
@@ -47,7 +48,7 @@ class Home extends React.Component {
 
                     </Card>
                     <div style={paper}>
-                        <img src={logo} alt="logo" height="30%" width="30%" />
+                        <img src={logo1} alt="logo" height="30%" width="30%" />
                         <Link to="/signin" >
                             <button class="button1">
                                 <span>Login</span>
