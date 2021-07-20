@@ -36,7 +36,7 @@ class Home extends React.Component {
                             <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
                         </div>
                     </div> 
-                    <img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" />
+                    <img src="../Images/logopng.jpg" alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" /><img src={logo} alt="logo" height="30%" width="30%" />
                     </div>
                  
                 </Grid>
