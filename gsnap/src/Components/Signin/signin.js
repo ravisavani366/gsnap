@@ -7,7 +7,10 @@ import LocalStorageStrings from '../LoginStrings';
 import TextField from '@material-ui/core/TextField';
 import ReactLoading from 'react-loading';
 import firebase from '../Firebase/firebase';
-import logo from '../Images/logopng.jpg'
+import logo from '../Images/logopng.jpg';
+import logo1 from '../Images/img1.jpg';
+import logo2 from '../Images/img2.jpg';
+import logo3 from '../Images/img3.jpg';
 
 
 class Signin extends React.Component {
@@ -124,7 +127,9 @@ class Signin extends React.Component {
                             </div>
                         ) : null}
                     </div>
-                   
+                    <div className="bodyimg123">
+                            <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="25%" width="25%" />
+                        </div>
                 </Grid>
                 <Grid item xs={12} sm={8} md={5} className="loginrightcomponent" elevation={6} square>
                     <Card style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', boxShadow: "0 5px 5px #808888" }}>
