@@ -232,4 +232,8 @@
     .words span:nth-child(7) {
       animation-delay: 3s;
     }
-    
+    .viewLoadingProfile{
+      margin-left: 50%;
+      margin-top:-30%;
+  
+    }
