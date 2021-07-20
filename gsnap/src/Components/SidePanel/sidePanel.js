@@ -70,7 +70,7 @@ class SidePanel extends React.Component{
                 <div id="sidepanel">
                     <div id="profile">
                         <div class="wrap">
-                            <img id="profile-img" src={this.currentUserPhoto ? this.currentUserPhoto : "https://firebasestorage.googleapis.com/v0/b/react-application-3248d.appspot.com/o/nopic.jpg?alt=media&token=e255d8d7-f346-40f2-bb8d-0bbb930ee281"} class="online" alt=""/>
+                            <img id="profile-img" src={this.currentUserPhoto ? this.currentUserPhoto : "https://firebasestorage.googleapis.com/v0/b/react-application-3248d.appspot.com/o/nopic.jpg?alt=media&token=7b8a6a30-ce7b-4fc1-bbd4-db2087e573e1"} class="online" alt=""/>
                             <p>{this.currentUserName}</p>
                         
                             <div id="status-options">
@@ -111,7 +111,7 @@ class SidePanel extends React.Component{
                                     >
                                         <div class='wrap'>
                                             <span class="contact-status online"></span>
-                                            <img src={item.URL ? item.URL : "https://firebasestorage.googleapis.com/v0/b/react-application-3248d.appspot.com/o/nopic.jpg?alt=media&token=e255d8d7-f346-40f2-bb8d-0bbb930ee281"}></img>
+                                            <img src={item.URL ? item.URL : "https://firebasestorage.googleapis.com/v0/b/react-application-3248d.appspot.com/o/nopic.jpg?alt=media&token=7b8a6a30-ce7b-4fc1-bbd4-db2087e573e1"}></img>
                                             <div class="meta">
                                                 <p class="name">{item.name}</p>
                                                 <p class="preview">{item.description ? item.description : " I am busy....."}</p>
