@@ -146,7 +146,7 @@ class Signin extends React.Component{
                  </Card>
                  <div style={paper}>
 
-                        <img className="avatar" alt="" src={this.state.photoUrl ? this.state.photoUrl : "https://firebasestorage.googleapis.com/v0/b/react-applciation.appspot.com/o/nopic.jpg?alt=media&token=d375ecd2-5905-4dee-8185-b351701915d0" }/>
+                        <img className="avatar" alt="" src={this.state.photoUrl ? this.state.photoUrl : "https://firebasestorage.googleapis.com/v0/b/react-application-3248d.appspot.com/o/nopic.jpg?alt=media&token=7b8a6a30-ce7b-4fc1-bbd4-db2087e573e1" }/>
                         <div className="viewWrapInputFile">
                             <img
                             className="imgInputFile"
