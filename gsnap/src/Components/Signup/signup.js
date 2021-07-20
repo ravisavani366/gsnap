@@ -7,6 +7,9 @@ import LocalStorageStrings  from '../LoginStrings';
 import TextField from '@material-ui/core/TextField';
 import ReactLoading from 'react-loading';
 import firebase from '../Firebase/firebase';
+import si1 from '../Images/si1.jpg';
+
+
 
 class Signin extends React.Component{
     constructor(props){
@@ -71,11 +74,43 @@ class Signin extends React.Component{
         return(
            <Grid  container component="main" className="root">
               <Grid item xs={1} sm={4} md={7} className="image">
-             
+              <div className="texte">
+                        <div className="regpage">
+                            <span>S</span>
+                            <span>I</span>
+                            <span>G</span>
+                            <span>N</span>
+                            <span>U</span>
+                            <span>P</span>
+                        </div>
+
+                        <div className="regpage">
+                           
+                            <span>S</span>
+                            <span>H</span>
+                            <span>R</span>
+                            <span>E</span>
+                            <span>E</span>
+                        </div>
+                            
+                        <div className="regpage">
+                            <span>D</span>
+                            <span>I</span>
+                            <span>A</span>
+                            <span>M</span>
+                            <span>O</span>
+                            <span>N</span>
+                            <span>D</span>
+                        </div>
+                    </div>
+                    
+                    <div className="bodyimg123">
+                            <img src={si1} alt="logo" height="50%" width="50%" style={{margin:'10px 100px'}}/> 
+                        </div>
                    <div className="leftimage">
                    
                    {this.state.isLoading ? (
-                       <div className="viewLoadingProfile">
+                       <div className="viewLoadingProfile1">
                            <ReactLoading
                             type={'cylon'}
                             color={'white'}
@@ -95,7 +130,9 @@ class Signin extends React.Component{
                          </button>
                      </Link>
                  </Card>
+
                  <div style={paper}>
+
                      <form style={{marginTop:'50px',width:'100%'}} noValidate onSubmit={this.handleSubmit}>
                          <TextField
                          variant="outlined"
