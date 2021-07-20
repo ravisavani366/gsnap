@@ -5,6 +5,9 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logopng.jpg';
 import logo1 from '../Images/img1.jpg';
+import logo2 from '../Images/img2.jpg';
+import logo3 from '../Images/img3.jpg';
+
 
 
 class Home extends React.Component {
@@ -35,11 +38,11 @@ class Home extends React.Component {
                         <div className="homedetails">
                             <i  className="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
                             <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
-                            <img src={logo1} alt="logo" height="30%" width="30%" />
+                           
                         </div>
                        
                     </div> 
-                    
+                    <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="30%" width="30%" />
                     </div>
                  
                 </Grid>
