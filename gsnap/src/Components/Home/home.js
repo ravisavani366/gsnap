@@ -21,30 +21,32 @@ class Home extends React.Component {
             paddingRight: '10px',
             marginTop: '60px'
         }
-      
+
 
         return (
             <Grid container component="main" className="root">
                 <Grid item xs={1} sm={4} md={7} className="imagehome">
-                
+
                     <div className="homeleftimage">
                         <div style={paper}>
                             <h1 className="logoname">
-                               Shree Diamond
-                               </h1>
-                               </div>
-                               <div className="logoname" >
-                        <p className="hometxt">Having more than 20 years experience in the Diamond industry. We are Leading Manufacturer and Exporter of Loose Diamonds, Black Diamonds, Fancy Color Diamonds, Diamond Beads Necklace and Rough Diamond Beads Necklace.</p>
-                        <div className="homedetails">
-                            <i  className="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
-                            <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
-                           
+                                Shree Diamond
+                            </h1>
                         </div>
-                       
-                    </div> 
-                    <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="30%" width="30%" />
+                        <div className="logoname" >
+                            <p className="hometxt">Having more than 20 years experience in the Diamond industry. We are Leading Manufacturer and Exporter of Loose Diamonds, Black Diamonds, Fancy Color Diamonds, Diamond Beads Necklace and Rough Diamond Beads Necklace.</p>
+                            <div className="homedetails">
+                                <i className="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
+                                <i className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
+
+                            </div>
+
+                        </div>
+                        <div className="bodyimg123">
+                            <img src={logo1} alt="logo" height="30%" width="30%" /> <img src={logo2} alt="logo" height="30%" width="30%" /> <img src={logo3} alt="logo" height="30%" width="30%" />
+                        </div>
                     </div>
-                 
+
                 </Grid>
                 <Grid item xs={12} sm={8} md={5} className="homerightcomponent" elevation={6} square>
                     <Card className="homeitem1">
@@ -62,9 +64,9 @@ class Home extends React.Component {
                         </Link>
                         <p className="footertxt">&copy; 2021 Shree Diamond</p>
                     </div>
-                  
+
                 </Grid>
-                
+
 
             </Grid>
 
