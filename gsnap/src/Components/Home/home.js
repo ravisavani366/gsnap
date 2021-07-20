@@ -4,7 +4,7 @@ import '../Styles/Home.css';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../Images/logopng.jpg';
-import logo1 from '../Images/ic_send.png'
+import logo1 from '../Images/img1.jpg';
 
 
 class Home extends React.Component {
@@ -37,6 +37,7 @@ class Home extends React.Component {
                             <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
                         </div>
                     </div> 
+                    <img src={logo1} alt="logo" height="30%" width="30%" />
                     </div>
                  
                 </Grid>
@@ -48,7 +49,7 @@ class Home extends React.Component {
 
                     </Card>
                     <div style={paper}>
-                        <img src={logo1} alt="logo" height="30%" width="30%" />
+                        <img src={logo} alt="logo" height="30%" width="30%" />
                         <Link to="/signin" >
                             <button class="button1">
                                 <span>Login</span>
