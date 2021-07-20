@@ -36,8 +36,9 @@ class Home extends React.Component {
                             <i  className="fa fa-phone">: Jigar Virani (Manager) - +91 90999 28272</i><br></br>
                             <i  className="fa fa-location-arrow">: 307, Torrent Tower, Near Katargam, Surat-395006 (Gujarat), INDIA</i>
                         </div>
+                        <img src={logo1} alt="logo" height="30%" width="30%" />
                     </div> 
-                    <img src={logo1} alt="logo" height="30%" width="30%" />
+                    
                     </div>
                  
                 </Grid>
