@@ -36,12 +36,11 @@
     justify-content: center;
    
   }
-  .viewLoadingProfile{
+  
+  .viewLoadingProfile1 {
     margin-left: 50%;
-    margin-top:40%;
-
-  }
-
+    margin-top: -5%;
+}
 .filebuttons{
     align-items: center;
     display: flex;
@@ -174,4 +173,15 @@ border-radius: 10px;
   .logoname {
     color: white;
      margin-top: 60px;
+  }
+  .regpage {
+    color: #ffffff;
+    font-size: 0;
+    line-height: 1.5;
+  }
+  
+  .regpage span {
+    font-size: 3rem;
+    display: inline-block;
+    animation: move 3s ease-in-out infinite;
   }
