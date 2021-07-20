@@ -7,7 +7,7 @@ import LocalStorageStrings  from '../LoginStrings';
 import TextField from '@material-ui/core/TextField';
 import ReactLoading from 'react-loading';
 import firebase from '../Firebase/firebase';
-import si1 from '../Images/si1.jpg';
+import logo from '../Images/logopng.jpg';
 
 
 
@@ -103,12 +103,13 @@ class Signin extends React.Component{
                             <span>D</span>
                         </div>
                     </div>
-                    
+                    <img src={logo} alt="logo" height="30%" width="30%" style={{marginLeft:'30%'}}/>
+
                     <div className="bodyimg123">
-                            <img src={si1} alt="logo" height="50%" width="50%" style={{margin:'10px 100px'}}/> 
                         </div>
                    <div className="leftimage">
-                   
+                   <marquee className="textDescriptionWelcome"><strong>⚠ Note:</strong> Please Enter Your Full Name as per your Adhar Card</marquee>
+
                    {this.state.isLoading ? (
                        <div className="viewLoadingProfile1">
                            <ReactLoading
